@@ -1,0 +1,58 @@
+/* not using flexbox, using static widths */
+
+#chessboard {
+    padding: 1rem;
+    width: 640px;
+    height: 640px;
+    border: 1px black solid;
+}
+
+
+.row {
+    height: 80px;
+}
+
+.row:nth-child(odd) .column:nth-child(even) {
+    background-color: black;
+}
+    /* -webkit-transition: ease-in-out ;
+    transition: ease-in-out ;
+} */
+
+.row:nth-child(even) .column:nth-child(odd) {
+    background-color: black;
+}
+
+
+.column {
+    width: 80px;
+    height: 80px;
+    float: left;
+    border: 1px rgb(238, 14, 238) solid;
+    -webkit-box-sizing: border-box;
+}
+.checker{
+    border:2px solid rgb(67, 9, 177);
+    height: 70px;
+    width: 60px;
+    background: rgb(179, 127, 240);
+    border-radius: 50%;
+    position: relative;
+    top:50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    box-shadow:2px 3px 3px rgb(14, 187, 37);
+}
+.checker-black{
+   border:2px solid rgb(179, 127, 240);
+   height: 70px;
+   width: 60px;
+   background: rgb(67, 9, 177);
+   border-radius: 50%;
+   position: relative;
+   top:50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   box-shadow:2px 3px 3px rgb(14, 187, 37);
+}
+    
