@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    @import url(https://fonts.googleapis.com/css?family=Darker+Grotesque:300,regular,500,600,700,800,900);
+}
+
+body {
+    height: 200vh;
+    padding-top: %;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(65, 53, 175);
+    position: fixed;
+}
+
+p {
+    
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    bottom: 0;
+    left: 350px;
+    font-family:;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 700px;
+    border: 1px solid black;
+    border-radius: 34px;
+    box-shadow:10px 15px
+}
+
+img {
+    margin-top:25%;
+    border: 1px solid #ddd;
+    border-radius: 30%;
+    padding-top: 30px;
+    max-width: 100%;
+    height: auto;
+    position: static;
+    box-shadow: 5px 10px rgb(9, 22, 202);
+
+
+}

@@ -1,0 +1,54 @@
+* main,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(241, 120, 120);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     width: 100vw;
+}
+
+.loginform {
+    background-color: rgb(224, 221, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 700px;
+   
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    width: 95%;
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.login-btn {
+    display: flex;    
+    padding: 0px 0px 0px 5px;
+    background-color: teal;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 2rem;    
+    
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
