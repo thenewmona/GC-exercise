@@ -1,3 +1,7 @@
+/**
+ * @todo Store arrays in separate file,
+ *       after we learn how to do that stuff.
+ */
 const answers = [
     'As I see it, yes.',
     'Ask again later.',
@@ -26,9 +30,21 @@ const answers = [
    /**
     * Take in input, and generate a response
     * @param string Question
+    * @todo  Add event listen for when 8 ball is shaken on screen
+    *        (after we learn that stuff).
+   
     */
    function receiveQuestion(question) {
        const answer = getRandomAnswer(answers);
+   
+       generateResponse(question, answer);
+   }
+   
+   /**
+    *  @todo  Instead of logging the data, inject it into the HTML
+    *        (after we learn that stuff).
+    */
+   function generateResponse() {
        console.log(`You asked: ${question}`);
        console.log(`Our answer is: ${answer}`);
    }
@@ -59,7 +75,6 @@ const answers = [
    
        if ( randomNumber !== lastAnswer ) {
            // Base step
-           console.log(randomNumber);
            lastAnswer = randomNumber;
            return randomNumber;
        } else {
@@ -68,7 +83,6 @@ const answers = [
        }
    }
    
-   
    receiveQuestion('Is this going to work?');
-
+   receiveQuestion('Is this going to work?');
    
