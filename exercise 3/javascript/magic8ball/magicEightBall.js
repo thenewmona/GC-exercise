@@ -34,6 +34,8 @@ const answers = [
     *        (after we learn that stuff).
    
     */
+
+    
    function receiveQuestion(question) {
        const answer = getRandomAnswer(answers);
    
