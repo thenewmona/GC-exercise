@@ -5,10 +5,12 @@
 // }
 // mins(4);
 
+// declaration - parameter
 function hourToMin (hour){
-    let min = 60;
+    let min = 60;//statement
     
-    return (hour*min);
+    return (hour*min);//invoking the function
 }
-hourToMin(6);
+//calling the function 
+hour(6);
 
