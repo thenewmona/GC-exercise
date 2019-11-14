@@ -4,13 +4,31 @@
  * 
  */
 
- let num1 = 45
- let num2 = 45
+let num1 = 45
+let num2 = 45
 
- if(num1 < num2){
-     console.log("number 1 is less than 2");
- }else if (num1 > num2){
-     console.log("number 1 is not less than number 2");
- }else{
-     console.log("The numbers are the same");
- }
+if (num1 < num2) {
+    console.log("number 1 is less than 2");
+} else if (num1 > num2) {
+    console.log("number 1 is not less than number 2");
+} else {
+    console.log("The numbers are the same");
+}
+
+/**Switch statements
+ * lets you test for multiple conditions 
+ */
+
+let letter = "n";
+
+switch (letter) {
+    case "n":
+    break;
+    case "N":
+
+        console.log(letter);
+        break;
+    case "a":
+        console.log("a");
+        break;
+}
