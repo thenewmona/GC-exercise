@@ -1,7 +1,6 @@
 function minToSecs (){
     let sec =60;
     let min = 7;
-    let result = secTime(min*sec);
-    // return (result);
+    let result = secTime(sec*min);
+    return (result);
 }
-console.log(result);
