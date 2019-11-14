@@ -1,7 +1,13 @@
-function minToSecs (){
-    let sec =60;
-    let min = 7;
-    let result = secTime(sec*min);
-    
+"use strict"
+// function minToSecs (mins){
+//     let sec =60; 
+//     return (mins*sec);    
+// }
+// mins(4);
+
+function hourToMin (hour){
+    let min = 60;
+    let hours = 1;
+    return (hour*min);
 }
-return (secTime);
+hourToMin(4);
