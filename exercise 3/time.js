@@ -7,7 +7,8 @@
 
 function hourToMin (hour){
     let min = 60;
-    let hours = 1;
+    
     return (hour*min);
 }
-hourToMin(4);
+hourToMin(6);
+
