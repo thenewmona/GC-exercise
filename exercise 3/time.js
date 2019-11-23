@@ -29,6 +29,7 @@ let hourToMin = () =>{
     let min = 1;
     let sec = 60;
     return (sec*min);
+    
 
 }
 //calling the function
