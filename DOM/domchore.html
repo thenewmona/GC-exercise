@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        #boxes-container>*{
+            border: 3px solid seagreen;
+        }
+        .box{
+            padding: 10px;
+            width: 250px;
+            height: 200px;
+            margin: 10px;
+            display: inline-block;
+            vertical-align: bottom;
+        }
+        #boxes-container>.student-box{
+            border: 3px solid crimson;
+        }
+        .box p{
+            margin:20px;
+
+        }
+        .circle{
+            width: 100px;
+            height: 100px;
+            background: fuchsia;
+            border-radius: 50%;
+            margin: 5px;
+                    }
+
+
+    </style>
+    <title>Dom Chore exercise</title>
+</head>
+<body>
+
+    <div id="boxes-container">
+        <div class="box " id="box1">box1</div>
+        <div class="box student-box" id="box1s">box1s
+            <p>hi</p>
+        </div>
+        <div class="box " id="box2">box2</div>
+        <div class="box student-box" id="box2s"></div>
+        <div class="box " id="box3">box3</div>
+        <div class="box student-box" id="box3s"></div>
+        <div class="box " id="box4"></div>
+        <div class="box student-box" id="box4s"></div>
+        <div class="box" id="box5">incomplete chores
+            <ul>
+                <li class="chore done">washing dishes (done)</li>
+                <li class="chore done">vacuum (done)</li>
+                <li class="chore undone">laundry (undone)</li>
+                <li class="chore undone">mowing (undone)</li>
+                <li class="chore undone">forage (undone)</li>
+            </ul>
+            
+            <button id="addChore">Add Chore</button>
+        </div>
+        <div class="box student-box" id="box5s">Completed Chores</div>
+        <ul></ul>
+    </div>
+    
+</body>
+</html>
