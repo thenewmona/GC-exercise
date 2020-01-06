@@ -1,12 +1,8 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>DOM Excercise</title>
+        <title>GC DOM Excercise 1</title>
         <!-- <meta name="description" content=""> -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
@@ -27,7 +23,8 @@ p {
 }
 
 #show-me {
-    border-color: green;
+    border-color: rgb(11, 17, 73);
+    background: rgb(139, 139, 209);
     margin-left: 11em;
 }</style>
     </head>
@@ -56,48 +53,33 @@ p {
         <script >
         function main() {
     // Add "big" class to grow-me paragraph
-    let jason = document.getElementById("grow-me");
-    jason.className = "big";
+    
     
     // Remove the "big" class from the "shrink-me" paragraph.
-    let shrink = document.getElementById("shrink-me");
-    shrink.className = null;
+    
     
     // Find all the <li>s and log their text content to the console.
-    let list = document.getElementsByTagName("li");
-    for (let elements of list) {
-      console.log(elements.innerText);  
+   
     }
   
     // Set the href of the link to "https://www.example.com" and update the       
     // text to say "somewhere" instead of "nowhere".
-    let link = document.getElementsByClassName("link")[0];
-    link.setAttribute("href", "/https://www.example.com");
-    link.innerText = "somewhere";
+   
   
     // Set the "display" CSS property of the "hide-me" paragraph to "none".
-    let disappear = document.getElementById("hide-me");
-    disappear.style.display = "none";
+    
     
     // Set the "display" CSS property of the "show-me" paragraph to "block"
-    let appear = document.getElementById("show-me");
-    appear.style.display = "block";
+ 
   
     /* Get the text that the user enters into the "name" input box and use 
     it to set a welcome message in the <h1>, e.g., "Welcome Grant!". */
   
-    let user = document.getElementById("name").value;
-    document.querySelector("h1").textContent = (`Welcome ${user}!`);
+    
     
     // log all variables to console
-    console.log(link);
-    console.log(jason);
-    console.log(shrink);
-    console.log(disappear);
-    console.log(appear);
-    console.log(user);
+    
   }
-  
-  main();</script>
+  </script>
     </body>
 </html>
