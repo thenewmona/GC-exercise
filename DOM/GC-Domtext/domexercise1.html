@@ -69,11 +69,11 @@ for (let listItem of list){
        let link = document.querySelector('.link');
    link.setAttribute('href',"https://www.example.com");   
    };
-   
-  // text to say "somewhere" instead of "nowhere".
 
+  // text to say "somewhere" instead of "nowhere".
+link.innerText='somewhere';
     // Set the "display" CSS property of the "hide-me" paragraph to "none".
-    
+    document.getElementById('hide-me').style.display('none');
     
     // Set the "display" CSS property of the "show-me" paragraph to "block"
  
