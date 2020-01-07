@@ -13,7 +13,7 @@ for (let listItem of list){
     
   
     // Set the href of the link to "https://www.example.com"       
-       let link = document.querySelector('.link');
+       let link = document.querySelector('.link');{
    link.setAttribute('href',"https://www.example.com");   
    };
 
@@ -23,7 +23,7 @@ link.innerText='somewhere';
     document.getElementById('hide-me').style.display('none');
     
     // Set the "display" CSS property of the "show-me" paragraph to "block"
- document.getElementById('show-me').style.display('inline-block');
+ document.getElementById('show-me').style.display('flex');
   
     /* Get the text that the user enters into the "name" input box and use 
     it to set a welcome message in the <h1>, e.g., "Welcome Grant!". */
