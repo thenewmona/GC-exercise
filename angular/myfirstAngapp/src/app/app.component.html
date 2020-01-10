@@ -1,1 +1,8 @@
-<h1 [hidden]="hidetitle">{{title}}{{returnTitle}}</h1>
+<h1 [hidden]="hideTitle">
+  Welcome to {{ title }}
+</h1>
+
+<h2>My name is {{name}}</h2>
+
+<button (click)="toggleTitle($event)"> Toggle Title </button>
+<input [(ngModel)]="name" />
