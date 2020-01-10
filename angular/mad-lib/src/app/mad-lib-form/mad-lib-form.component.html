@@ -1,1 +1,6 @@
-<p>mad-lib-form works!</p>
+<span [hidden]="editMode">{{madLibText}}</span>
+
+<form>
+    <input [(ngModel)]="madLibText" [hidden]="!editMode" [placeholder]="placeholder" />
+    <button [hidden]="!editMode" (click)="toggleEditMode()"> Save </button>
+</form>

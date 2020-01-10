@@ -1,4 +1,4 @@
-
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-first-angular-app',
@@ -6,7 +6,7 @@
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mad-lib';
+  title = 'The Jungle';
   hideTitle = true;
 
   returnTitle() {
