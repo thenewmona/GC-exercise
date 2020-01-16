@@ -6,9 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./box.component.css']
 })
 export class BoxComponent implements OnInit {
-
+count:number = 0;
   constructor() { }
-
+countUp(){
+  this.count++;
+}
+countDown(){
+  this.count--;
+}
   ngOnInit() {
   }
 
