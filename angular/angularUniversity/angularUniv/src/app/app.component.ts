@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Monas AngularUniv Project';
+  data = {
+    title:'Monas angular tutorial'
+  };
+  onLogoClicked(){
+    alert('hello World')
+  }
 }
