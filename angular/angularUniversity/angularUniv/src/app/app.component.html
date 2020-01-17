@@ -3,4 +3,5 @@
 </h1>
 <img width="300" (click)="onLogoClicked()" src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/81200783_3148030858559852_4700415730615582720_o.png?_nc_cat=106&_nc_ohc=qOMCuTS8jjAAX82f5U5&_nc_ht=scontent-ort2-2.xx&oh=f0699fbd2a44bc89fe7b47f6dcb758e5&oe=5E9B2DFA" alt="mona's setup"/>
 
-<input class='demo' [value]='data.title'>
+<!-- #is used for a template reference -->
+<input class='demo' (keyup)="onKeyUp(titleInput.value)" [value]="data.title" #titleInput>
